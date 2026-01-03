@@ -54,45 +54,6 @@ Praticar e aplicar os principais conceitos avançados do React, como:
 
 ---
 
-## 📁 Estrutura do projeto
-
-```
-todo/
-├── src/
-│   ├── assets/           # Recursos estáticos
-│   │   ├── icons/       # Ícones SVG
-│   │   └── image/       # Imagens
-│   ├── components/      # Componentes reutilizáveis
-│   │   ├── badge.tsx
-│   │   ├── button.tsx
-│   │   ├── button-icon.tsx
-│   │   ├── card.tsx
-│   │   ├── container.tsx
-│   │   ├── icon.tsx
-│   │   ├── input-checkbox.tsx
-│   │   ├── input-text.tsx
-│   │   ├── skeleton.tsx
-│   │   └── text.tsx
-│   ├── cor-components/  # Componentes principais da aplicação
-│   │   ├── footer.tsx
-│   │   ├── header.tsx
-│   │   └── main-content.tsx
-│   ├── pages/           # Páginas da aplicação
-│   │   ├── layout-main.tsx
-│   │   ├── page-components.tsx
-│   │   └── page-home.tsx
-│   ├── App.tsx          # Componente raiz com rotas
-│   ├── main.tsx         # Ponto de entrada da aplicação
-│   └── index.css        # Estilos globais e tema TailwindCSS
-├── index.html           # HTML principal
-├── package.json         # Dependências e scripts
-├── tsconfig.json        # Configuração TypeScript
-├── vite.config.ts       # Configuração Vite
-└── README.md            # Documentação do projeto
-```
-
----
-
 ## 🖥 Funcionalidades
 
 ### Implementadas
@@ -132,7 +93,7 @@ todo/
 
 1. Clone o repositório:
 ```bash
-git clone <url-do-repositorio>
+git clone https://github.com/JoaoMuriloPO/react-TODO-rocketseat.git
 cd todo
 ```
 
@@ -158,100 +119,4 @@ http://localhost:5173
 * `pnpm preview` - Preview do build de produção
 * `pnpm lint` - Executa o linter
 
----
 
-## 📋 Próximos passos
-
-Baseado no repositório de referência [react-calculadora-rocketseat](https://github.com/JoaoMuriloPO/react-calculadora-rocketseat), seguem sugestões para evoluir o projeto:
-
-### Funcionalidades principais
-
-1. **Implementar CRUD completo de tarefas**
-   * Adicionar novas tarefas
-   * Editar tarefas existentes
-   * Remover tarefas
-   * Marcar tarefas como concluídas/pendentes
-
-2. **Gerenciamento de estado**
-   * Implementar Context API para estado global
-   * Criar hooks customizados para lógica de negócio
-   * Gerenciar estado das tarefas de forma centralizada
-
-3. **Persistência de dados**
-   * Integrar `localStorage` para salvar tarefas
-   * Implementar sincronização automática
-   * Adicionar opção de exportar/importar tarefas
-
-4. **Filtros e busca**
-   * Filtrar tarefas por status (todas, pendentes, concluídas)
-   * Implementar busca por texto
-   * Adicionar ordenação (data, alfabética, prioridade)
-
-5. **Melhorias de UX/UI**
-   * Adicionar animações e transições suaves
-   * Implementar feedback visual para ações
-   * Criar estados de loading e empty states
-   * Adicionar confirmações para ações destrutivas
-
-6. **Funcionalidades avançadas**
-   * Adicionar prioridades às tarefas
-   * Implementar categorias/tags
-   * Adicionar datas de vencimento
-   * Criar modo escuro/claro
-   * Adicionar estatísticas (tarefas concluídas, pendentes)
-
-7. **Testes**
-   * Configurar ambiente de testes (Vitest + React Testing Library)
-   * Escrever testes unitários para componentes
-   * Adicionar testes de integração
-   * Implementar testes E2E
-
-8. **Deploy**
-   * Configurar GitHub Pages
-   * Ou fazer deploy na Vercel/Netlify
-   * Configurar CI/CD para deploy automático
-   * Adicionar badge de status no README
-
-9. **Documentação**
-   * Documentar componentes com Storybook
-   * Adicionar exemplos de uso
-   * Criar guia de contribuição
-   * Documentar decisões de arquitetura
-
-10. **Otimizações**
-    * Implementar code splitting
-    * Adicionar lazy loading de rotas
-    * Otimizar bundle size
-    * Implementar memoização quando necessário
-
----
-
-## 📚 Recursos de aprendizado
-
-Este projeto foi desenvolvido seguindo os conceitos do curso da Rocketseat. Para aprofundar seus conhecimentos:
-
-* [Documentação oficial do React](https://react.dev/)
-* [Documentação do TypeScript](https://www.typescriptlang.org/)
-* [Documentação do Vite](https://vite.dev/)
-* [Documentação do TailwindCSS](https://tailwindcss.com/)
-* [Documentação do React Router](https://reactrouter.com/)
-
----
-
-## 📄 Licença
-
-Este projeto foi desenvolvido para fins educacionais.
-
----
-
-## 👨‍💻 Autor
-
-Desenvolvido durante o curso de ReactJS da Rocketseat.
-
----
-
-## 🙏 Agradecimentos
-
-* Rocketseat pela excelente metodologia de ensino
-* Comunidade React pelo ecossistema incrível
-* Todos os mantenedores das bibliotecas utilizadas
