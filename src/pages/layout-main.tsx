@@ -1,5 +1,4 @@
-import { NavLink, Outlet } from "react-router";
-import Text from "../components/text";
+import { Outlet } from "react-router";
 import Header from "../cor-components/header";
 import MainContent from "../cor-components/main-content";
 import Footer from "../cor-components/footer";
