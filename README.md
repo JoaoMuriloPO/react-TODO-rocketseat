@@ -1,3 +1,8 @@
+<div align="center">
+  <img width="568" height="618" alt="image" src="https://github.com/user-attachments/assets/eccf933a-310a-4b37-8370-dfa92f5739f0" />
+</div>
+
+---
 # 📝 TODO List em ReactJS
 
 Aplicação de gerenciamento de tarefas desenvolvida em **ReactJS** com **TypeScript**, criada durante o curso da **Rocketseat**, aplicando conceitos avançados da biblioteca e boas práticas de desenvolvimento.
@@ -118,5 +123,6 @@ http://localhost:5173
 * `pnpm build` - Gera build de produção
 * `pnpm preview` - Preview do build de produção
 * `pnpm lint` - Executa o linter
+
 
 
